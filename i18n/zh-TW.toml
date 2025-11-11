@@ -30,6 +30,9 @@ other = "分類"
 
 [categories]
 other = "分類"
+
+[archive]
+other = "歸檔"
 # === Taxonomy ===
 
 # === Pagination ===
