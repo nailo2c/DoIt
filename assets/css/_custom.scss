@@ -2,3 +2,34 @@
 // Custom style
 // 自定义样式
 // ==============================
+
+/* 針對文章內容 (.content) 進行全域調整 */
+
+/* 1. 加大段落與段落之間的距離 */
+.content p {
+    margin-bottom: 2rem !important; /* 原本大約是 1rem，加倍讓閱讀更舒適 */
+    line-height: 1.8;   /* 增加行高，讓文字不要擠在一起 */
+}
+
+/* 2. 加大程式碼區塊 (Code Block) 上下的距離 */
+.content .highlight {
+    margin-top: 1.5rem !important;    /* 程式碼上方留白 */
+    margin-bottom: 1.5rem !important; /* 程式碼下方留白 */
+}
+
+/* 3. 加大標題 (H2, H3) 與上方段落的距離 */
+/* 避免標題緊貼著上一段文字，增加呼吸感 */
+.content h2 {
+    margin-top: 3.5rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.content h3 {
+    margin-top: 2.5rem !important;
+    margin-bottom: 1rem !important;
+}
+
+/* 4. 針對列表 (List) 也要加大一點間距，才不會跟段落落差太大 */
+.content ul, .content ol {
+    margin-bottom: 2rem !important;
+}
