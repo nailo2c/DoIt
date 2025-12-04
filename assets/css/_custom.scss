@@ -19,10 +19,11 @@
 
 /* 3. 加大標題 (H2, H3) 與上方段落的距離 */
 /* 避免標題緊貼著上一段文字，增加呼吸感 */
-.content h2 {
-    margin-top: 3.5rem !important;
-    margin-bottom: 1.5rem !important;
-}
+/* 這會導致showcase排版跑掉 */
+// .content h2 {
+//     margin-top: 3.5rem !important;
+//     margin-bottom: 1.5rem !important;
+// }
 
 .content h3 {
     margin-top: 2.5rem !important;
